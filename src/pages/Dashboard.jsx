@@ -91,7 +91,7 @@ export default function Dashboard() {
   return (
     <div className="animate-fade-up">
       {/* KPIs */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-6 stagger-children">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-6">
         <KpiCard icon={FileText}      iconBg="bg-blue-50 text-blue-500"    label="Total Claims"       target={12847}  trend="up"   trendLabel="+12.3%" />
         <KpiCard icon={XCircle}        iconBg="bg-red-50 text-red-500"      label="Denial Rate"        target={8.2}    suffix="%" trend="down" trendLabel="-2.1%" />
         <KpiCard icon={Shield}         iconBg="bg-amber-50 text-amber-500"  label="Appeals Filed"      target={892}    trend="up"   trendLabel="+8.7%" />

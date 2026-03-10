@@ -92,7 +92,7 @@ export default function Analytics() {
   return (
     <div className="animate-fade-up">
       {/* Top KPIs */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6 stagger-children">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
         <AnalyticKpi label="Total Denied Amount" value="$2,847,320" sub="+$124K vs last month" subColor="text-emerald-500" />
         <AnalyticKpi label="Total Recovered" value="$1,916,407" valueColor="text-emerald-600" sub="67.3% recovery rate" subColor="text-emerald-500" />
         <AnalyticKpi label="Net Write-Off" value="$930,913" valueColor="text-red-500" sub="32.7% of denials" subColor="text-red-500" />

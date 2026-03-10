@@ -32,8 +32,8 @@ export default function KpiCard({ icon: Icon, iconBg, label, target, prefix = ''
 
   return (
     <div ref={ref} className={`
-      rounded-2xl border p-4 sm:p-5 flex flex-col gap-3 transition-all duration-200
-      hover:shadow-md hover:-translate-y-0.5
+      rounded-2xl border p-4 sm:p-5 flex flex-col gap-3 transition-shadow duration-200
+      hover:shadow-md
       ${highlight
         ? 'bg-gradient-to-br from-indigo-600 to-indigo-800 border-transparent text-white'
         : 'bg-white border-slate-200'}

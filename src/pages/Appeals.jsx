@@ -43,7 +43,7 @@ export default function Appeals() {
           const urgency = daysLeft < 10 ? 'text-red-500' : daysLeft < 20 ? 'text-amber-500' : 'text-emerald-500';
 
           return (
-            <div key={d.id} className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <div key={d.id} className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md transition-shadow">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <div className="font-mono text-xs text-indigo-600 font-medium">{d.claim_id}</div>
